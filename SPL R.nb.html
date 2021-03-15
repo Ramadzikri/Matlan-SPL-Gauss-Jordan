@@ -215,6 +215,7 @@ pre code {
 
 
 <!-- rnb-text-begin -->
+<p>library(matlib)</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuQSA8LSBtYXRyaXgoYyg0LC0yLDAsNSwtMiwxLDMsNCwtMSksMywzLFRSVUUpXG5iIDwtIGMoMiw3LDMpXG5zaG93RXFuKEEsYilcbmBgYCJ9 -->
@@ -222,6 +223,9 @@ pre code {
 b &lt;- c(2,7,3)
 showEqn(A,b)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gc2hvd0VxbihBLCBiKSA6IGNvdWxkIG5vdCBmaW5kIGZ1bmN0aW9uIFwic2hvd0VxblwiXG4ifQ== -->
+<pre><code>Error in showEqn(A, b) : could not find function &quot;showEqn&quot;</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -229,14 +233,35 @@ showEqn(A,b)</code></pre>
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuU29sdmUoQSxiKVxuYGBgIn0= -->
 <pre class="r"><code>Solve(A,b)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoieDEgICAgICA9ICAxIFxuICB4MiAgICA9ICAxIFxuICAgIHgzICA9ICA0IFxuIn0= -->
-<pre><code>x1      =  1 
-  x2    =  1 
-    x3  =  4 </code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gU29sdmUoQSwgYikgOiBjb3VsZCBub3QgZmluZCBmdW5jdGlvbiBcIlNvbHZlXCJcbiJ9 -->
+<pre><code>Error in Solve(A, b) : could not find function &quot;Solve&quot;</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGxvdEVxbjNkKEEsYilcbmBgYCJ9 -->
+<pre class="r"><code>plotEqn3d(A,b)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gcGxvdEVxbjNkKEEsIGIpIDogY291bGQgbm90IGZpbmQgZnVuY3Rpb24gXCJwbG90RXFuM2RcIlxuIn0= -->
+<pre><code>Error in plotEqn3d(A, b) : could not find function &quot;plotEqn3d&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZWNoZWxvbihBLGIsIHZlcmJvc2U9VFJVRSwgZnJhY3Rpb25zPVRydWUpXG5gYGAifQ== -->
+<pre class="r"><code>echelon(A,b, verbose=TRUE, fractions=True)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gZWNoZWxvbihBLCBiLCB2ZXJib3NlID0gVFJVRSwgZnJhY3Rpb25zID0gVHJ1ZSkgOiBcbiAgY291bGQgbm90IGZpbmQgZnVuY3Rpb24gXCJlY2hlbG9uXCJcbiJ9 -->
+<pre><code>Error in echelon(A, b, verbose = TRUE, fractions = True) : 
+  could not find function &quot;echelon&quot;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIlIgTm90ZWJvb2siDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpgYGB7cn0NCkEgPC0gbWF0cml4KGMoNCwtMiwwLDUsLTIsMSwzLDQsLTEpLDMsMyxUUlVFKQ0KYiA8LSBjKDIsNywzKQ0Kc2hvd0VxbihBLGIpDQpgYGANCg0KYGBge3J9DQpTb2x2ZShBLGIpDQpgYGA=</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIlIgTm90ZWJvb2siDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KbGlicmFyeShtYXRsaWIpDQoNCmBgYHtyfQ0KQSA8LSBtYXRyaXgoYyg0LC0yLDAsNSwtMiwxLDMsNCwtMSksMywzLFRSVUUpDQpiIDwtIGMoMiw3LDMpDQpzaG93RXFuKEEsYikNCmBgYA0KDQpgYGB7cn0NClNvbHZlKEEsYikNCmBgYA0KDQpgYGB7cn0NCnBsb3RFcW4zZChBLGIpDQpgYGANCg0KYGBge3J9DQplY2hlbG9uKEEsYiwgdmVyYm9zZT0gVFJVRSwgZnJhY3Rpb25zPSBUUlVFKQ0KYGBgDQoNCg==</div>
 
 
 
