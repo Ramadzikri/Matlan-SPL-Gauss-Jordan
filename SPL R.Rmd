@@ -11,3 +11,4 @@ showEqn(A,b)
 
 ```{r}
 Solve(A,b)
+```
